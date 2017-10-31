@@ -5,12 +5,16 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { AnswerDetailComponent } from './answer-detail/answer-detail.component';
 import { routing } from './app.routing';
+import { SecondPageComponent } from './second-page/second-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    AnswerDetailComponent,
+    SecondPageComponent
   ],
   imports: [
     BrowserModule,

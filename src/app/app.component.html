@@ -1,10 +1,16 @@
-<h1>
-  {{title}}
-</h1>
 
-  <p>Your Chosen Name</p>
-  <p>Your animal</p>
-  <p>your current points</p>
+<div id="headerID" class="container">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="card">
+    <p>{{user[0].name}}</p>
+
+    <p>{{user[0].role}}</p>
+
+    <p>{{user[0].points}}</p>
+  </div>
+</div>
 
 <hr>
 

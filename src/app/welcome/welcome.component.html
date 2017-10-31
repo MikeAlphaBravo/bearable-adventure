@@ -1,14 +1,24 @@
-<form class="form-control">
+<form>
   <label for="userNameForm">What is your name?</label>
-  <input type="text" name="userNameInput">
+  <input class="form-control" type="text" name="userNameInput">
 
-  <label for="userAnimalIdentity">Which of the following best describes you:</label>
-  <select class="form-control" name="animalIdentityDropdown">
+  <label for="userRoleIdentity">Which of the following best describes you:</label>
+  <select class="form-control" name="roleIdentityDropdown">
     <option value="bear">Bear</option>
     <option value="wolf">Wolf</option>
     <option value="silverFox">Silver Fox</option>
     <option value="otter">Otter</option>
   </select>
 
-  <button class="btn btn-info" type="submit" name="user">COMMIT</button>
+  <button class="btn btn-info" type="submit" name="submitUser">COMMIT</button>
 </form>
+
+<h3>Welcome to your (un?)BEARable dating adventure!</h3>
+<p>Daddy Bear has asked you on a date, after meeting last weekend at Lazy Bear in Guernville, CA.
+<br>
+He's picking you up at 8 o'clock sharp! Whatever are you going to wear?</p>
+
+<button class="btn btn-info" type="submit" name="chooseSuit"><a routerLink="second-page">The suit from your best friend's wedding last year, where you were Man of Honor</a></button>
+<br>
+<h3>-OR-</h3>
+<button class="btn btn-info" type="submit" name="chooseSarong">Your Sarong from that Fire Island trip last summer</button>
